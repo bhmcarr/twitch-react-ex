@@ -163,7 +163,7 @@
 }
 
 .SideBar {
-  background-color: rgb(236, 235, 235);
+  background-color: rgb(241, 240, 240);
   height: 100vh;
   padding: 2px;
   z-index: 1;
@@ -180,6 +180,7 @@
   font-size: small;
   color: rgb(78, 78, 78);
   padding: 5px;
+  margin-top: 10px;
 }
 
 .SideBarChannelElement {
@@ -189,6 +190,10 @@
   padding: 2px;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
+}
+.SideBarChannelElement:hover {
+  background-color: rgb(231, 231, 231);
 }
 
 .SideBarChannelIcon {
@@ -220,13 +225,14 @@
   flex-direction: row;
   align-items: center;
   width: 50px;
+  font-size: small;
 }
 
 .SideBarViewIcon {
   color:red;
   height: 8px;
   width: 8px;
-  padding-right: 5px;
+  margin-right: 5px;
 }
 
 .SideBarLeft {

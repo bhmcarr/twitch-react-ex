@@ -11,11 +11,9 @@ const SideBarChannelElement = ({ channel }) => {
                     <p className="SideBarChannelTextPlaying">{channel.playing}</p>
                 </div>
             </div>
-            <div className="SideBarRight">
-                <div className="SideBarViewCount">
-                    <CircleFill className="SideBarViewIcon"/>
-                    <p>{channel.viewers}</p>
-                </div>
+            <div className="SideBarViewCount">
+                <CircleFill className="SideBarViewIcon"/>
+                <p>{channel.viewers}</p>
             </div>
         </div>
     );
