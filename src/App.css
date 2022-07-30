@@ -5,6 +5,7 @@
 
 .App {
   text-align: center;
+  z-index: 0;
 }
 
 .App-logo {
@@ -20,6 +21,8 @@
   box-shadow: 0px 0.5px 2px 0px #8a8a8a;
   justify-content: space-between;
   max-height: 50px;
+  position: sticky;
+  z-index: 2;
 }
 
 .NavLeft {
@@ -152,6 +155,90 @@
 
 .UserIcon:hover {
   background-color: white;
+}
+
+.MainView {
+  display: flex;
+  flex-direction: row;
+}
+
+.SideBar {
+  background-color: rgb(236, 235, 235);
+  height: 100vh;
+  padding: 2px;
+  z-index: 1;
+}
+
+.SideBarSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.SideBarSectionLabel {
+  font-weight: bold;
+  font-size: small;
+  color: rgb(78, 78, 78);
+  padding: 5px;
+}
+
+.SideBarChannelElement {
+  display: flex;
+  flex-direction: row;
+  min-width: 16rem;
+  padding: 2px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SideBarChannelIcon {
+  height: 30px;
+  width: 30px;
+  color:#9146FF;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+}
+.SideBarChannelText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 5px
+}
+
+.SideBarChannelTextName {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.SideBarChannelTextPlaying {
+  font-size: small;
+}
+
+.SideBarViewCount {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50px;
+}
+
+.SideBarViewIcon {
+  color:red;
+  height: 8px;
+  width: 8px;
+  padding-right: 5px;
+}
+
+.SideBarLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.SideBarRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
