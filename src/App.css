@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +10,148 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: center;
+  box-shadow: 0px 0.5px 2px 0px #8a8a8a;
+  justify-content: space-between;
+  max-height: 50px;
+}
+
+.NavLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.NavCenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.NavRight {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.NavElement {
+  padding: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.NavElementLabel {
+  font-size: large;
+  font-weight: bold;
+}
+
+.NavElementLabel:hover {
+  color: #9146FF;
+}
+
+.SearchBarContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 36;
+}
+
+.SearchBar {
+  min-width: 18rem;
+  background-color: #dbdbdb;
+  border-width: 0px;
+  border-radius: 4px 0px 0px 4px;
+  padding: 10px;
+  padding-right: 10px;
+  height: 36;
+}
+
+.SearchButton {
+  padding: 10px;
+  height: 36;
+  border-width: 0px;
+  background-color: #ececec;
+  border-radius: 0px 4px 4px 0px;
+  cursor: pointer;
+  margin-left: 1px;
+}
+.SearchButton:hover {
+  background-color: #dbdbdb;
+}
+
+.TwitchLogo {
+  padding: 10px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  height: 28px;
+  width: 28px;
+  color: #9146FF;
+}
+
+.ThreeDotsButton {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+.ThreeDotsButton:hover {
+  color: #9146FF;
+}
+
+.GetBits {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(230, 230, 230);
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 4px;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.GetBitsLabel {
+  padding: 2px;
+  font-weight: bold;
+  font-size: small;
+}
+
+.GetBitsIcon {
+  padding: 2px;
+}
+
+.GetBits:hover {
+  background-color: rgb(219, 219, 219);
+}
+
+.NavRightIcon {
+  height: 18px;
+  width: 18px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.NavRightIcon:hover {
+  background-color: rgb(194, 194, 194);
+  border-radius: 4px;
+}
+
+.UserIcon {
+  color: #9146FF;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.UserIcon:hover {
+  background-color: white;
 }
 
 @media (prefers-reduced-motion: no-preference) {
