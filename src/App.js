@@ -1,4 +1,5 @@
 import './App.css';
+import Carousel from './Carousel';
 import LiveChannels from './LiveChannels';
 import NavBar from './NavBar';
 import SideBar from './SideBar';
@@ -9,7 +10,10 @@ function App() {
       <NavBar />
       <div className="MainView">
         <SideBar />
-        <LiveChannels />
+        <div className='RightPane'>
+          <Carousel />
+          {/* <LiveChannels /> */}
+        </div>
       </div>
     </div>
   );

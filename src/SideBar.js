@@ -16,11 +16,6 @@ const SideBar = () => {
         {icon: anya, name: "AnyaTheNerd", playing: "Devil Survivor 2", viewers: "500K"},
         {icon: epic, name: "EpicTastic", playing: "Final Fantasy IX", viewers: "600K"},
     ];
-    const recChannelData = [
-        {icon: chelly, name: "QueenChelly", playing: "Sega Bass Pro Fishing", viewers: "100K"},
-        {icon: mjam, name: "mJam", playing: "Dissidia NT", viewers: "20K"},
-        {icon: finn, name: "PleasantFinn_", playing: "Yakuza: Like a Dragon", viewers: "20K"},
-    ];
 
     return (
         <div className="SideBar">
@@ -34,10 +29,13 @@ const SideBar = () => {
             </div>
             <div className="SideBarSection">
                 <p className="SideBarSectionLabel">RECOMMENDED CHANNELS</p>
-                {recChannelData.map((channel, index) => {
-                    return (
-                        <SideBarChannelElement key={index} channel={channel} />
-                    );
+                {channelData.map((channel, index) => {
+                    if (index <= 2) {
+                        return (
+                            <SideBarChannelElement key={index} channel={channel} />
+                        );
+                    } else return null;
+
                 })}
             </div>
         </div>

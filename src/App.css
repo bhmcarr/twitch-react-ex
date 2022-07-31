@@ -247,8 +247,75 @@
   align-items: center;
 }
 
+.Carousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80vw;
+  justify-content: center;
+}
+
+.CarouselCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  margin-top: 20px;
+  width: 300px;
+  height: 150px;
+  background-color: white;
+  border: #d8d8d8;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  align-items: center;
+  box-shadow: 0px 1px 2.5px 0px gray;
+  cursor: pointer;
+}
+.CarouselCard:hover {
+  box-shadow: 0px 1.5px 5px 0px #9146FF;
+  /* transform: translate(2px, -2px); */
+  transform: scale(1.02);
+  transition: 0.1s;
+}
+
+.CarouselCardImage {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+}
+
+.CarouselCardLabel {
+  font-size: x-large;
+  font-weight: bold;
+  color: #7b3bdb;
+}
+
+.CarouselRotateButton {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.CarouselRotateButton:hover {
+  background-color: rgb(201, 201, 201);
+}
+
+.RightPane {
+  display: flex;
+  flex-direction: column;
+}
+
 .LiveChannels {
   padding: 5px;
+}
+
+.LiveChannelsTitle {
+  font-size: large;
+  font-weight: bold;
 }
 
 @media (prefers-reduced-motion: no-preference) {
