@@ -37,7 +37,7 @@
   
   .NavElementLabel {
     font-size: large;
-    font-weight: bold;
+    font-weight: 600;
   }
   
   .NavElementLabel:hover {

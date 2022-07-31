@@ -1,6 +1,6 @@
 import './App.css';
 import Carousel from './Carousel/Carousel';
-import LiveChannels from './LiveChannels';
+import LiveChannels from './LiveChannels/LiveChannels';
 import NavBar from './NavBar/NavBar';
 import SideBar from './SideBar/SideBar';
 
@@ -12,7 +12,7 @@ function App() {
         <SideBar />
         <div className='RightPane'>
           <Carousel />
-          {/* <LiveChannels /> */}
+          <LiveChannels />
         </div>
       </div>
     </div>

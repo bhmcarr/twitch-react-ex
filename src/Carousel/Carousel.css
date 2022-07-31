@@ -4,6 +4,7 @@
     align-items: center;
     width: 80vw;
     justify-content: center;
+    margin-bottom: 50px;
   }
   
   .CarouselCard {
@@ -16,8 +17,8 @@
     padding-right: 20px;
     margin: 10px;
     margin-top: 20px;
-    width: 300px;
-    height: 150px;
+    width: 500px;
+    height: 250px;
     background-color: white;
     border: #d8d8d8;
     border-width: 1px;
@@ -44,8 +45,8 @@
     padding-right: 20px;
     margin: 10px;
     margin-top: 20px;
-    width: 300px;
-    height: 150px;
+    width: 500px;
+    height: 250px;
     background-color: white;
     border: #d8d8d8;
     border-width: 1px;
