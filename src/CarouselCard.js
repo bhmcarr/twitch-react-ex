@@ -1,8 +1,8 @@
 import React from "react";
 
-const CarouselCard = ({ cardEntry }) => {
+const CarouselCard = ({ cardEntry, small = false}) => {
     return (
-        <div className="CarouselCard" onClick={() => window.alert(cardEntry.text)}>
+        <div className={!small ? "CarouselCard" : "CarouselCardSmaller"} onClick={() => window.alert(cardEntry.text)}>
             <img className="CarouselCardImage" src={cardEntry.image} alt={cardEntry.text}></img>
             <p className="CarouselCardLabel">{cardEntry.text}</p>
         </div>

@@ -48,7 +48,8 @@ const Carousel = () => {
             {cardData.map((cardEntry, index) => {
                 if (index <= 2)
                 return (
-                    <CarouselCard key={index} cardEntry={cardEntry} />
+                    <CarouselCard key={index} cardEntry={cardEntry} 
+                    small={index != 1 && true}/>
                 );
             })}
             <ChevronRight 
