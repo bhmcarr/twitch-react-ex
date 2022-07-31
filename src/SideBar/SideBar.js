@@ -1,11 +1,12 @@
 import React from "react";
 import SideBarChannelElement from "./SideBarChannelElement";
-import finn from "./assets/finn.png";
-import mjam from "./assets/mjam.png";
-import chelly from "./assets/chelly.png";
-import marc from "./assets/marc.png";
-import anya from "./assets/anya.png";
-import epic from "./assets/epic.png";
+import finn from "../assets/finn.png";
+import mjam from "../assets/mjam.png";
+import chelly from "../assets/chelly.png";
+import marc from "../assets/marc.png";
+import anya from "../assets/anya.png";
+import epic from "../assets/epic.png";
+import "./SideBar.css";
 
 const SideBar = () => {
     const channelData = [

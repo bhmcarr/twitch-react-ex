@@ -1,6 +1,7 @@
 import React from "react";
 import NavElement from "./NavElement";
-import SearchBar from "./SearchBar";
+import SearchBar from "./SearchBar/SearchBar";
+import "./NavBar.css";
 import { ChatLeft, Inbox, PersonCircle, ThreeDotsVertical, PiggyBank, Gem, Twitch} from "react-bootstrap-icons";
 
 const NavBar = () => {

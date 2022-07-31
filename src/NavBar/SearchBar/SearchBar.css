@@ -1,0 +1,29 @@
+.SearchBarContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 36;
+  }
+  
+  .SearchBar {
+    min-width: 18rem;
+    background-color: #dbdbdb;
+    border-width: 0px;
+    border-radius: 4px 0px 0px 4px;
+    padding: 10px;
+    padding-right: 10px;
+    height: 36;
+  }
+  
+  .SearchButton {
+    padding: 10px;
+    height: 36;
+    border-width: 0px;
+    background-color: #ececec;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    margin-left: 1px;
+  }
+  .SearchButton:hover {
+    background-color: #dbdbdb;
+  }

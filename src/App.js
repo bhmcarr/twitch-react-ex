@@ -1,8 +1,8 @@
 import './App.css';
-import Carousel from './Carousel';
+import Carousel from './Carousel/Carousel';
 import LiveChannels from './LiveChannels';
-import NavBar from './NavBar';
-import SideBar from './SideBar';
+import NavBar from './NavBar/NavBar';
+import SideBar from './SideBar/SideBar';
 
 function App() {
   return (

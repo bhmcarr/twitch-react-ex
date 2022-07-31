@@ -1,0 +1,84 @@
+.SideBar {
+    background-color: rgb(241, 240, 240);
+    height: 100vh;
+    padding: 2px;
+    z-index: 1;
+  }
+  
+  .SideBarSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .SideBarSectionLabel {
+    font-weight: bold;
+    font-size: small;
+    color: rgb(78, 78, 78);
+    padding: 5px;
+    margin-top: 10px;
+  }
+  
+  .SideBarChannelElement {
+    display: flex;
+    flex-direction: row;
+    min-width: 16rem;
+    padding: 2px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .SideBarChannelElement:hover {
+    background-color: rgb(231, 231, 231);
+  }
+  
+  .SideBarChannelIcon {
+    height: 30px;
+    width: 30px;
+    color:#9146FF;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+  }
+  .SideBarChannelText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5px
+  }
+  
+  .SideBarChannelTextName {
+    font-size: medium;
+    font-weight: bold;
+  }
+  
+  .SideBarChannelTextPlaying {
+    font-size: small;
+  }
+  
+  .SideBarViewCount {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50px;
+    font-size: small;
+  }
+  
+  .SideBarViewIcon {
+    color:red;
+    height: 8px;
+    width: 8px;
+    margin-right: 5px;
+  }
+  
+  .SideBarLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .SideBarRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }

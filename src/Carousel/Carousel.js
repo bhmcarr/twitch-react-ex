@@ -1,12 +1,13 @@
 import React from "react";
 import { ChevronLeft, ChevronRight } from "react-bootstrap-icons";
-import finn from "./assets/finn.png";
-import mjam from "./assets/mjam.png";
-import chelly from "./assets/chelly.png";
-import marc from "./assets/marc.png";
-import anya from "./assets/anya.png";
-import epic from "./assets/epic.png";
+import finn from "../assets/finn.png";
+import mjam from "../assets/mjam.png";
+import chelly from "../assets/chelly.png";
+import marc from "../assets/marc.png";
+import anya from "../assets/anya.png";
+import epic from "../assets/epic.png";
 import CarouselCard from "./CarouselCard";
+import "./Carousel.css";
 
 const Carousel = () => {
     const [cardData, setCardData] = React.useState([

@@ -1,4 +1,6 @@
 import React from "react";
+import "./Carousel.css";
+
 
 const CarouselCard = ({ cardEntry, small = false}) => {
     return (
