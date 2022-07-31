@@ -27,6 +27,7 @@ const SideBar = () => {
                         <SideBarChannelElement key={index} channel={channel} />
                     );
                 })}
+                <p className="SeeMore">See more..</p>
             </div>
             <div className="SideBarSection">
                 <p className="SideBarSectionLabel">RECOMMENDED CHANNELS</p>
@@ -38,6 +39,7 @@ const SideBar = () => {
                     } else return null;
 
                 })}
+                <p className="SeeMore">See more..</p>
             </div>
         </div>
     );
