@@ -13,6 +13,11 @@
     padding: 10px;
     padding-right: 10px;
     height: 36;
+    outline-width: 0px;
+  }
+  .SearchBar:focus {
+    outline-color: #9146FF;
+    outline-width: 1px;
   }
   
   .SearchButton {
