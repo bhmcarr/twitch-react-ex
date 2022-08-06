@@ -1,3 +1,3 @@
 This was made to get some practice in structuring web pages in React, as well as some basic CSS stuff.
 
-![Screenshot 2022-07-30 203551](https://user-images.githubusercontent.com/4266915/182004752-e04dc61d-0fde-43d3-ab43-722417d4e653.png)
+![Screenshot 2022-08-06 194208](https://user-images.githubusercontent.com/4266915/183269205-02fa1c7b-2b77-4f53-82c2-a3d018d02ebf.png)
